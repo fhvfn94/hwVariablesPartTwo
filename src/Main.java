@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        /*task2();
+        task2();
         task3();
         task4();
         task5();
         task6();
-        task7();*/
+        task7();
         task8();
     }
     public static void task2() {
@@ -75,6 +75,17 @@ public class Main {
         System.out.println(secondPlane);
     }
     public static void task8(){
-
+        int Masha = 67760;
+        int Denis = 83690;
+        int Khris = 76230;
+        int upMasha = Masha + (Masha / 100 * 10);
+        int upDenis = Denis + (Denis / 100 * 10);
+        int upKhris = Khris + (Khris / 100 * 10);
+        int rMasha = upMasha *12 - Masha * 12;
+        int rDenis = upDenis *12 - Denis * 12;
+        int rKhris = upKhris *12 - Khris *12;
+        System.out.println("Маша теперь получает " + upMasha + " рублей. Годовой доход вырос на " + rMasha +" рублей");
+        System.out.println("Маша теперь получает " + upDenis + " рублей. Годовой доход вырос на " + rDenis +" рублей");
+        System.out.println("Маша теперь получает " + upKhris + " рублей. Годовой доход вырос на " + rKhris +" рублей");
     }
 }
